@@ -1,0 +1,4 @@
+- 👋 Hi, I’m @gold1dream
+- 👀 I’m interested in programming
+- 🌱 I’m currently learning programming
+- ⚡ Fun fact: i study programming
