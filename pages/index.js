@@ -1,4 +1,4 @@
-function Home() {return <h1> um pequeno passo para um grande sonho
+function Home() {return <h1> "não existe vento favorável para o marinheiro que não sabe a onde ir". -SENECA
 </h1>}
 
 export default Home;
