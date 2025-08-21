@@ -8,7 +8,7 @@
     "lint:check": "prettier --check .",
     "lint:fix": "prettier --write .",
     "test": "jest",
-    "jest:watch": "jest --watch"
+    "test:watch": "jest --watch"
   },
   "author": "",
   "license": "MIT",
