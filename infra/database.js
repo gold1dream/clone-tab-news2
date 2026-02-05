@@ -1,4 +1,5 @@
 import { Client } from "pg";
+import { prototype } from "pg/lib/type-overrides";
 
 async function query(queryObject) {
   const client = new Client({
@@ -11,6 +12,7 @@ async function query(queryObject) {
   await client.connect();
   const result = await client.query(queryObject);
   await client.end();
+  return result;
 }
 export default {
   query: query,
